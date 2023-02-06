@@ -4,7 +4,6 @@ public class Main {
         whileTwo();
         forTwo();
     }
-
     static void whileTwo() {
         int counter = 0;
         do {
@@ -16,5 +15,21 @@ public class Main {
     static void forTwo() {
         for (int i = 0; i <= 21; i += 3)
             System.out.println(i);
+    }
+
+    static void whileFour() {
+
+    }
+
+    static void forFour() {
+
+    }
+
+    static void whileSix() {
+
+    }
+
+    static void whileEight() {
+
     }
 }
