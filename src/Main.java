@@ -4,7 +4,6 @@ public class Main {
     public static void main(String[] args) {
         whileFour();
     }
-
     static void whileTwo() {
         int counter = 0;
         do {
@@ -12,13 +11,10 @@ public class Main {
             counter += 3;
         } while (counter <= 21);
     }
-
     static void forTwo() {
         for (int i = 0; i <= 21; i += 3)
             System.out.println(i);
     }
-
-    // Ask a user for a number, and alert all the powers of 2 that are less than that number. For example, if 50 is entered, your program should print 1, 2, 4, 8, 16 and 32 to the console.
     static void whileFour() {
         Scanner scan = new Scanner(System.in);
 
@@ -31,7 +27,6 @@ public class Main {
             counter *= 2;
         }
     }
-
     static void forFour() {
         Scanner scan = new Scanner(System.in);
 
@@ -41,11 +36,20 @@ public class Main {
         for (int i = 1; i < num; i *= 2)
             System.out.println(i);
     }
-
     static void whileSix() {
+        Scanner scan = new Scanner(System.in);
 
+        while (true) {
+            System.out.println("Are you able to drive? (y/n): ");
+
+            char answer = scan.nextLine().trim().charAt(0);
+
+            if (answer == 'y' || answer == 'n') {
+                System.out.println("Thank you for your input!");
+                return;
+            }
+        }
     }
-
     static void whileEight() {
 
     }
