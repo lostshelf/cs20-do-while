@@ -70,10 +70,12 @@ public class Main {
             input = Integer.parseInt(scan.nextLine().trim());
 
             total += input;
-            counter++;
+
+            if (input != 0)
+                counter++;
         } while (input > 0);
 
         System.out.println("Total: " + total);
-        System.out.println("Average: " + total / counter);
+        System.out.println("Average: " + (double) total / (double) counter);
     }
 }
