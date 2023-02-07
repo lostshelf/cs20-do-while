@@ -33,7 +33,13 @@ public class Main {
     }
 
     static void forFour() {
+        Scanner scan = new Scanner(System.in);
 
+        System.out.print("Enter a number: ");
+        int num = Integer.parseInt(scan.nextLine().trim());
+
+        for (int i = 1; i < num; i *= 2)
+            System.out.println(i);
     }
 
     static void whileSix() {
