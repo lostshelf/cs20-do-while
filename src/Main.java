@@ -51,6 +51,21 @@ public class Main {
         }
     }
     static void whileEight() {
+        Scanner scan = new Scanner(System.in);
 
+        int total = 0;
+        int counter = 0;
+        int input = 0;
+
+        do {
+            System.out.print(">> ");
+            input = Integer.parseInt(scan.nextLine().trim());
+
+            total += input;
+            counter++;
+        } while (input > 0);
+
+        System.out.println("Total: " + total);
+        System.out.println("Average: " + total / counter);
     }
 }
