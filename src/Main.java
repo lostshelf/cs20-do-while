@@ -2,7 +2,15 @@ import java.util.Scanner;
 public class Main {
     // I have prefixed the solutions with their corresponding assignment and question number
     public static void main(String[] args) {
+        whileTwo();
+        forTwo();
+
         whileFour();
+        forFour();
+
+        whileSix();
+
+        whileEight();
     }
     static void whileTwo() {
         int counter = 0;
