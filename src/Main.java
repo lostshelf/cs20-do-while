@@ -63,7 +63,7 @@ public class Main {
 
         int total = 0;
         int counter = 0;
-        int input = 0;
+        int input;
 
         do {
             System.out.print(">> ");
