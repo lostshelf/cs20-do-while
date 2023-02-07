@@ -62,6 +62,7 @@ public class Main {
     static void whileEight() {
         Scanner scan = new Scanner(System.in);
 
+        // Variables to store data in
         int total = 0;
         int counter = 0;
         int input;
@@ -72,8 +73,10 @@ public class Main {
 
             total += input;
 
+            // Make sure the exit character is not included in the average
             if (input != 0)
                 counter++;
+
         } while (input > 0);
 
         System.out.println("Total: " + total);
