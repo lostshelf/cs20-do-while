@@ -52,6 +52,7 @@ public class Main {
 
             char answer = scan.nextLine().trim().charAt(0);
 
+            // Only exits if correct input is provided
             if (answer == 'y' || answer == 'n') {
                 System.out.println("Thank you for your input!");
                 return;
